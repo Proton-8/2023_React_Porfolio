@@ -2,7 +2,7 @@ import React from 'react'
 import avatar from '../images/mug-1c.jpg';
 export const Header = () => {
     return (
-        <main className="container background-trans-50" id="about"
+        <main   id="about" className="container background-trans-50" 
         >    <h1>
                 Ronald Shutter <img src={avatar} alt="User avatar" className="avatar" />
             </h1>
@@ -18,15 +18,15 @@ export const Header = () => {
                 <li> MONGO DB </li>
                 <li> EXPRESS JS </li>
                 <li> DOCKER </li>
-                <li> REACT JS</li>
-          
+                <li> REACT</li>
+          <br></br>
           I also now have some GAME Developer SKILLS in:
           <li> UNITY game Design - C#</li>
           <li> CoCos Game Design - TypeScript</li>
           <li> PHASER Game Design</li>
+          <br></br>
            </p> </span>
            
-
         </main>
     )
 }
