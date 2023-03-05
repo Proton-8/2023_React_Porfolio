@@ -79,14 +79,15 @@ export const Skills = () => {
                 {/* Grabbing the show info and mapping through */}
                 {Skill.map((skills) => (
                     // placing each set of show info into its own ShowCard
-                    <ShowCard 
-                    venue={skills.venue}
+                    <li>
+                        venue={skills.venue}
+                    {/* venue={skills.venue}
                     // venueImg={project.venueImg}
                     desc={skills.desc}
                     key={skills.id}
-                    // href={project.ref}
-                    
-                    />
+                    // href={project.ref} */}
+                   </li>
+                
                 ))}
                 </div>
             </div>
