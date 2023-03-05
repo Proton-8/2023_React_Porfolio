@@ -12,10 +12,10 @@ export const Skills = () => {
     const Skill = [
         {
             venue: "Code Writer",
-            // venueImg: Project1,
-            desc: "This was my first TEAM project. City-Scan allows users to search COVID-related data on a state level, while evaluating quality of life data such as healthcare, commute and cost of living of specific cities within the state. ",
-            // ref: " https://michaelhermes.github.io/City-Scan/ ",
-            id: "1",            
+            // // venueImg: Project1,
+            // desc: "This was my first TEAM project. City-Scan allows users to search COVID-related data on a state level, while evaluating quality of life data such as healthcare, commute and cost of living of specific cities within the state. ",
+            // // ref: " https://michaelhermes.github.io/City-Scan/ ",
+            // id: "1",            
         },
 
         {
@@ -77,10 +77,10 @@ export const Skills = () => {
                     </div>
                 <div className="skills">
                 {/* Grabbing the show info and mapping through */}
-                {Skill.map((skills) => (
+                {Skill.map((props) => (
                     // placing each set of show info into its own ShowCard
                     <li>
-                        venue={skills.venue}
+                        {props.venue}
                     {/* venue={skills.venue}
                     // venueImg={project.venueImg}
                     desc={skills.desc}

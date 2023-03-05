@@ -15,7 +15,7 @@ function App() {
    <Navbar/>
    <Header/>
       </div>
-      <div id="showcase">
+      <div id="showcase2">
   <Services/>
   </div>
    <Project />

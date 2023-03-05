@@ -69,14 +69,29 @@ nav a#openup {
 
 #showcase {
     margin: 0px;
-    padding: 0;
-    background: url(./images/Beach.jpg) no-repeat center/cover;
+    padding: 0px;
+    /* background: url(./images/show2.jpg) no-repeat center/cover; */
+    
+    background:slategrey;
+      width:auto;
+    height:auto;
+    position: relative;
+    overflow-y: hidden;
+    display: flexbox;
+}
+
+#showcase2 {
+    margin: 0px;
+    padding: 100px;
+    background: url(./images/Beach.jpg) no-repeat center;
     width:auto;
     height:auto;
     position: relative;
     overflow-y: hidden;
     display: flexbox;
 }
+
+
 
 /* body{
     margin: 0;
@@ -101,6 +116,7 @@ nav a#openup {
 #showcase .container {
     margin-top: 8vh;
     margin-bottom: 2vh;
+    position: relative;
 }
 
 #showcase h1 {
@@ -123,7 +139,11 @@ nav a#openup {
     border-radius: 25px;
     color: #eee;
 }
-
+.background-trans-70 {
+    background-color: rgba(37, 26, 26, 0.909);
+    border-radius: 35px;
+    color: #eee;
+}
 /* Section */
 
 .section {
