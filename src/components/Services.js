@@ -1,52 +1,82 @@
 import React from "react";
+
 export const Services = () => {
   return (
-    <main id="about" className="container background-trans-50">
+    <main id="service" className="container2 background-trans-50">
       {" "}
       <span className="lead hide-on-small">
         <h2> My Services:</h2>
         {/* <br></br> */}
         <p>
-          <h3> Full Stack Programmer </h3>
-          Front to Back Coder
-          <li> CSS </li>
-          <li> HTML </li>
-          <li> NODE JS</li>
-          <li> JAVASCRIPT </li>
-          <li> MYSQL DB</li>
-          <li> MONGO DB </li>
-          <li> EXPRESS JS </li>
-          <li> DOCKER </li>
-          <li> REACT</li>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(4, 1fr)",
+              gridGap: 20,
+            }}
+          >
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <h3> Full Stack Programmer </h3>
+              Experience in:
+              <li> CSS </li>
+              <li> HTML </li>
+              <li> NODE JS</li>
+              <li> JAVASCRIPT </li>
+              <li> MYSQL DB</li>
+              <li> MONGO DB </li>
+              <li> EXPRESS JS </li>
+              <li> DOCKER </li>
+              <li> REACT</li>
+            </div>
+
+            {/* <div>
+              <h3> Front-End Development </h3>
+              <li> CSS </li>
+              <li> HTML </li>
+              <li> JAVASCRIPT </li>
+              <li> REACT</li>
+            </div> */}
+            <div>
+              <h3> Electromechanical Engineer </h3>
+              Extensive experience in:
+              <li>Concept to complete design for production </li>
+              <li>SolidWorks model - prototype expert</li>
+              {/* <br></br> */}
+              <a href="https://docs.google.com/document/d/1MfuMqFuQyG7wiIdfwsF5YPtcSD7_MPf1/edit?usp=sharing&ouid=115475312727942649219&rtpof=true&sd=true">
+                {" "}
+                <button>
+                  <h3> My Resume </h3>
+                </button>
+              </a>
+            </div>
+            <div>
+              <h3> GAME Developer </h3>
+              Experience designing in:
+              <li> UNITY game Design - C#</li>
+              <li> CoCos Game Design - TypeScript</li>
+              <li> PHASER Game Design</li>
+            </div>
+            <div>
+              <h3> Web Page Designer </h3>
+              Experience in:
+              <li> WordPress</li>
+              <li> REACT</li>
+              <li> Angular</li>
+            </div>
+          </div>
         </p>
-        </span>
-        <span>
+      </span>
+      <span>
         <br></br>
         <p>
-            <div> 
-        {/* < id="showcase"> */}
-          <h3> Front-End Development </h3>
-          <li> CSS </li>
-          <li> HTML </li>
-          <li> JAVASCRIPT </li>
-          <li> REACT</li>
-       </div> </p>
-        
+          <div>{/* < id="showcase"> */}</div>{" "}
+        </p>
         {/* </body> */}
         <br></br>
-        <p>
-          {" "}
-          <h3> Electromechanical Engineer </h3>
-          <li>Concept to complete design for production </li>
-          <li>SolidWorks model - prototype expert</li>
-        </p>
+        <p> </p>
         <p>
           {" "}
           <br></br>
-          <h3> GAME Developer </h3>
-          <li> UNITY game Design - C#</li>
-          <li> CoCos Game Design - TypeScript</li>
-          <li> PHASER Game Design</li>
           <br></br>
         </p>{" "}
       </span>

@@ -68,11 +68,11 @@ nav a#openup {
 /* Showcase */
 
 #showcase {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     background: url(./images/Beach.jpg) no-repeat center/cover;
-    width: 100%;
-    height: 100%;
+    width:auto;
+    height:auto;
     position: relative;
     overflow-y: hidden;
     display: flexbox;
@@ -91,11 +91,16 @@ nav a#openup {
 
 
 
+#showcase2 .container {
+    margin-top: 10vh;
+    margin-bottom: auto;
+}
 
 
 
 #showcase .container {
-    margin-top: 12vh;
+    margin-top: 8vh;
+    margin-bottom: 2vh;
 }
 
 #showcase h1 {
@@ -135,6 +140,12 @@ nav a#openup {
 }
 
 /* Container */
+.container2 {
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 3rem;
+    padding: 0 auto;
+ }
 
 .container {
    max-width: 1180px;
