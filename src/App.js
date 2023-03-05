@@ -6,6 +6,7 @@ import { Project} from "./components/Project";
 import { Contact} from "./components/Contact";
 import { Footer} from "./components/Footer";
 import { Skills } from './components/Skills';
+import { Services } from './components/Services';
 
 function App() {
 
@@ -14,9 +15,8 @@ function App() {
       <div id="showcase">   
    <Navbar/>
    <Header/>
-  
-    </div>
-  <Skills/>  
+      </div>
+  <Services/>
    <Project />
     <br/>
     <Contact />
