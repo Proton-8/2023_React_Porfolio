@@ -33,6 +33,7 @@ nav {
     color: var(--off-white);
     position: fixed;
     padding-bottom: 20pt;
+    z-index: 1;
 }
 
 nav ul {
@@ -106,10 +107,10 @@ nav a#openup {
 
 
 
-#showcase2 .container {
+/* #showcase2 .container {
     margin-top: 10vh;
     margin-bottom: auto;
-}
+} */
 
 
 
@@ -484,4 +485,20 @@ nav a#openup {
     display:flexbox;
     width: 60px;
     height: 60px;
+}
+
+.Service_Section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+ /* margin: 5px; */
+   padding: 1%;
+
 }
