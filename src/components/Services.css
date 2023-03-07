@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/* CSS Variables */
+
+
+
+.newButton {
+  text-decoration:dashed;
+  color: #e30707;
+}
+
+
+.Service_Section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+ /* margin: 5px; */
+   padding: auto;
+
+}

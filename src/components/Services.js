@@ -1,6 +1,6 @@
 import React from "react";
 // import Resume23 from "../images/Resume Ron A Shutter 2022.doc";
-
+import "./Services.css";
 export const Services = () => {
   return (
     <div className="Service_Section  background-trans-70">
@@ -15,7 +15,10 @@ export const Services = () => {
         <li>SolidWorks model - prototype expert</li>
         {/* <br></br> */}
         {/* <a href="Resume23"> */}
-        <a href="https://docs.google.com/document/d/1MfuMqFuQyG7wiIdfwsF5YPtcSD7_MPf1/edit?usp=sharing&ouid=115475312727942649219&rtpof=true&sd=true">
+        <a
+          className="newButton"
+          href="https://docs.google.com/document/d/1MfuMqFuQyG7wiIdfwsF5YPtcSD7_MPf1/edit?usp=sharing&ouid=115475312727942649219&rtpof=true&sd=true"
+        >
           {" "}
           <button>
             <h3> My Resume </h3>
@@ -36,10 +39,7 @@ export const Services = () => {
         <li> EXPRESS JS </li>
         <li> DOCKER </li>
         <li> REACT</li>
-        <h3> Web Page Designer </h3>
-        Experience in:
         <li> WordPress</li>
-        <li> REACT</li>
         <li> Angular</li>
       </div>
 
@@ -51,10 +51,6 @@ export const Services = () => {
         <li> CoCos - TypeScript </li>
         <li> PHASER </li>
       </div>
-
-
-
-
     </div>
   );
 };

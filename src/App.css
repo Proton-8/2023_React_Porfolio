@@ -486,19 +486,3 @@ nav a#openup {
     width: 60px;
     height: 60px;
 }
-
-.Service_Section{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
- 
-}
-
-.sections{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
- /* margin: 5px; */
-   padding: 1%;
-
-}
