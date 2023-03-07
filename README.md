@@ -1,6 +1,4 @@
-# REACT Portfolio - Unit 20
-
-## Description
+# REACT Portfolio - Year 2023
 
 This app will present my latest Portfolio on a single page using REACT
 
@@ -8,7 +6,7 @@ This app will present my latest Portfolio on a single page using REACT
 
 GIVEN a single-page application portfolio for a web developer
 
-- WHEN I load the portfolio
+<!-- - WHEN I load the portfolio
   - THEN I am presented with a page containing a header, a section for content, and a footer
 - WHEN I view the header
   - THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
@@ -31,7 +29,7 @@ GIVEN a single-page application portfolio for a web developer
 - WHEN I am presented with the Resume section
   - THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 - WHEN I view the footer
-  - THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+  - THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) -->
 
 <br>
 
@@ -53,6 +51,7 @@ GIVEN a single-page application portfolio for a web developer
   - ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
 <br>
+https://img.shields.io/static/v1?label=<LABEL>&message=<Hello World>&color=<orange>
 
 ## Deployed website: <a href="https://morning-scrubland-35363.herokuapp.com/ "> Ron's Profile</a>
 
