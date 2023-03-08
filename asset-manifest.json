@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/2023_React_Portfolio/static/css/main.3c8fa1e0.css",
+    "main.js": "/2023_React_Portfolio/static/js/main.dc0a8b17.js",
+    "static/js/787.46b2306a.chunk.js": "/2023_React_Portfolio/static/js/787.46b2306a.chunk.js",
+    "static/media/Proj2.gif": "/2023_React_Portfolio/static/media/Proj2.c9f49695670aeeb75e79.gif",
+    "static/media/Proj4.gif": "/2023_React_Portfolio/static/media/Proj4.e488336272f3e3bd3a87.gif",
+    "static/media/Beach.jpg": "/2023_React_Portfolio/static/media/Beach.9f51dd00980126933bfe.jpg",
+    "static/media/Proj6.JPG": "/2023_React_Portfolio/static/media/Proj6.3e363d8154035bdcde45.JPG",
+    "static/media/Proj3.JPG": "/2023_React_Portfolio/static/media/Proj3.6c1e086a48d3a967b17e.JPG",
+    "static/media/Proj1.JPG": "/2023_React_Portfolio/static/media/Proj1.1e6aceb531a065cf2426.JPG",
+    "static/media/Proj8.JPG": "/2023_React_Portfolio/static/media/Proj8.155385669d6e93133271.JPG",
+    "static/media/Proj5.JPG": "/2023_React_Portfolio/static/media/Proj5.ed8dc27bc8e08fe20315.JPG",
+    "static/media/mug-1c.jpg": "/2023_React_Portfolio/static/media/mug-1c.b45a5e7e1fc63aa7a283.jpg",
+    "index.html": "/2023_React_Portfolio/index.html",
+    "main.3c8fa1e0.css.map": "/2023_React_Portfolio/static/css/main.3c8fa1e0.css.map",
+    "main.dc0a8b17.js.map": "/2023_React_Portfolio/static/js/main.dc0a8b17.js.map",
+    "787.46b2306a.chunk.js.map": "/2023_React_Portfolio/static/js/787.46b2306a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c8fa1e0.css",
+    "static/js/main.dc0a8b17.js"
+  ]
+}
