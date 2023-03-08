@@ -51,7 +51,6 @@ GIVEN a single-page application portfolio for a web developer
   - ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
 <br>
-https://img.shields.io/static/v1?&message=hello_world&color=orange>
 
 ## Deployed website: <a href="https://morning-scrubland-35363.herokuapp.com/ "> Ron's Profile</a>
 

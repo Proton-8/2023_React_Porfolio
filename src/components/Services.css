@@ -4,24 +4,37 @@
 
 
 
-.newButton {
+Service newButton {
   text-decoration:dashed;
   color: #e30707;
 }
 
-
+.tag{
+  display: flex;
+  flex-direction: column; background-color: #ac8b8b99;
+  color: #000000;
+  text-align-last: center;
+  font:bolder;
+  /* background-color: rgba(37, 26, 26, 0.243); */
+  font-variant-caps: all-small-caps;
+  border-radius:30px;
+}    
 .Service_Section{
     display: flex;
     flex-direction: row;
+    align-content:space-evenly;
     flex-wrap: wrap;
  
+
+     
 }
 
 .sections{
     display: flex;
     flex-direction: column;
-    margin: auto;
- /* margin: 5px; */
+    
+    /* margin: auto; */
+ margin: 8px;
    padding: auto;
-
+   text-align: left;
 }
