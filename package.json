@@ -1,8 +1,9 @@
-{"homepage":"http://Proton-8.github.io/2023_React_Portfolio",
-  "name":"portfolio-2023",
+{
+  "homepage": "http://Proton-8.github.io/2023_React_Portfolio",
+  "name": "portfolio-2023",
   "version": "0.1.0",
   "private": true,
-   "dependencies": {
+  "dependencies": {
     "@emailjs/browser": "^3.3.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -16,11 +17,10 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    
   },
   "eslintConfig": {
     "extends": [
